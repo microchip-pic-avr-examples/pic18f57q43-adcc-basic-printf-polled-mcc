@@ -15,7 +15,7 @@ The [ADC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-looku
 Example Components are a tight integration of learning material directly into MCC. This allows users to conveniently place configuration instructions side-by-side to the components they are configuring. For more information, refer to the [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
 
 
-![MCC Melody Example Components](images/ADCCExample-BasicPrintf-Polled-Intro_15cm.png)
+![MCC Melody Example Components](images/ADCCExample-BasicPrintf-Polled-Intro_12cm.png)
 
 
 Complete projects, available in [MPLAB® Discover](https://mplab-discover.microchip.com) or GitHub, are specific to a board and microcontroller. However, the current project could be recreated on a range of supported microcontrollers by following the steps in the example component.
@@ -71,7 +71,7 @@ The image below shows the [ADCC Basic Printf example](https://onlinedocs.microch
 
 
 ## Summary
-For more example components, open the stand-alone Content Manager ![CM_icon](images/CM_icon.png) in MCC. 
+For more example components, open the stand-alone Content Manager ![CM_icon](images/Icon-MPLAB-CM24.png) in MCC. 
 
 ![Standalone_CM](images/MCC_ContentManager_Examples_18cm.png) 
 
