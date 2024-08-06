@@ -9,7 +9,7 @@
 # MCC Melody ADC Basic Printf Example, Polled Implementation (PIC18F57Q43)
 
 The [ADC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.ADCC.PRINTF&version=latest&redirect=true
-), of the MCC Melody ADCC Example Component, is used in the **Polled Implementation**.  ADC Conversions are taken every 500 ms. The LED is toggled and the result is sent to the PC terminal.  
+), of the MCC Melody ADCC Example Component, is used in the Polled Implementation.  ADC Conversions are taken every 500 ms. The LED is toggled and the result is sent to the PC terminal.  
 
 ## MCC Melody Example Components
 Example Components are a tight integration of learning material directly into MCC. This allows users to conveniently place configuration instructions side-by-side to the components they are configuring. For more information, refer to the [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
