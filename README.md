@@ -6,10 +6,10 @@
    </picture>
 </a>
 
-# MCC Melody Timer Toggle LED Example, Polled Implementation (PIC18F57Q43)
+# MCC Melody ADC Basic Printf Example, Polled Implementation (PIC18F57Q43)
 
-The [TIMER Toggle LED example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.TIMER.PIC16F18F.TOGGLE.LED&version=latest&redirect=true
-), of the MCC Melody Timer Example Component, is used in the **Polled Implementation**.  The LED on the PIC18F57Q43 Curiosity Nano is toggled, as well as a Debug I/O, which can be used to verify the 100 ms period. 
+The [ADC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.ADCC.PRINTF&version=latest&redirect=true
+), of the MCC Melody ADCC Example Component, is used in the **Polled Implementation**.  ADC Conversions are taken every 500 ms. The LED is toggled and the result is sent to the PC terminal.  
 
 ## MCC Melody Example Components
 Example Components are a tight integration of learning material directly into MCC. This allows users to conveniently place configuration instructions side-by-side to the components they are configuring. For more information, refer to the [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
@@ -31,7 +31,7 @@ Example Components are related to [MCC Melody Design Patterns for Control Flow](
 - MPLAB® XC8 2.46.0 or newer [(MPLAB® XC8 2.46)](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8)
 
 - MCC Plugin Version 5.5.1 or newer (Tools > Plugins > Installed, search: "MCC")
-- Timer Example Component 1.0.0 or newer
+- ADCC Example Component 1.0.0 or newer
 - MCC Core 5.7.1 or newer 
 - MCC Melody Core 2.7.1 or newer (Communicates with the MCC core, providing views and other functionality for MCC Melody)
 
