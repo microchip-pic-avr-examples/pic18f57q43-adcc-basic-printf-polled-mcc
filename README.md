@@ -15,7 +15,7 @@ The [ADC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-looku
 Example Components are a tight integration of learning material directly into MCC. This allows users to conveniently place configuration instructions side-by-side to the components they are configuring. For more information, refer to the [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
 
 
-![MCC Melody Example Components](images/GUID-ADDC2E58-F16C-46BD-A42F-D8FF02459622-high_12cm.png)
+![MCC Melody Example Components](images/ADCCExample-BasicPrintf-Polled-Intro.png)
 
 
 Complete projects, available in [MPLAB® Discover](https://mplab-discover.microchip.com) or GitHub, are specific to a board and microcontroller. However, the current project could be recreated on a range of supported microcontrollers by following the steps in the example component.
@@ -46,29 +46,29 @@ Example Components are related to [MCC Melody Design Patterns for Control Flow](
 ## Setup
 All instructions required to recreate this example are listed below, under Configuration Instructions.   
 
-![TIMER Toggle LED, Polled Implementation](images/TIMER_Toggle_LED_Polled_15cm.png)
+![TIMER Toggle LED, Polled Implementation](images/ADCC_Basic_Printf_Polled.png)
 
 Once you have loaded the project in MPLAB X IDE, you will also be able to find more information from Tooltips and links next to the instructions 
-[![Tooltip and link](images/info-circle-fill.png "Change the values of these settings until the needed Requested Period is between the indicated min., max values.")](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.CONFIGHELP.TIMER.PERIOD&version=latest&redirect=true) .
+[![Tooltip and link](images/Icon-info-circle-fill.png "Find the Tx pin from your schematic and set it in Pin Grid View.")](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.CONFIGHELP.UART.CNANO&version=latest&redirect=true).
 
 
-![Tooltips and context help](images/HardwareSettings_RequestedPeriod.png)
+![Tooltips and context help](images/PinsConfiguration_SelectPinForUartTx.png)
 
 
 ## Operation
-The image below shows the [TIMER Toggle LED example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.TIMER.PIC16F18F.TOGGLE.LED&version=latest&redirect=true
-) running. The period of 100 ms is verified using Debug GPIO on the MPLAB Data Visualizer. A PIC18F57Q43 Curiosity Nano is used.
+The image below shows the [ADCC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.ADCC.PRINTF&version=latest&redirect=true
+) running, using the MPLAB Data Visualizer. 
 
-**Note:** Achieve the same functionality by adding the Timer Example Component to a new or existing MCC Melody project, for one of the supported microcontrollers.  
+1) Click to on the icon to open the MPLAB Data Visualizer.
+2) Under Debug GPIO, click the ![Add to time plot icon](images/Icon-DataVisualizer_TimePlot.png "Display as raw data on time plot.") icon, to add to the time plot.
+3) Under the COMx port, associated with your board, click the ![Settings Gear](images/Icon-DataVisualizer-SettingsGear.png "sourse options") to set the Baud Rate to 115200. 
+4) Then click the ![Display as text in the terminal icon](images/Icon-DataVisualizer_TimePlot.png "Display as raw data on time plot.") icon, to display text from the COMx port on the terminal.
 
-![Running the Timer Toogle LED example](images/RunningTimerToggleLED_15cm.png)
+**Note:** If your board is not recognised by the MPLAB Data Visualizer, got to the Device Manager (Windows), to determine the COMx number.  
+
+![Running the ADCC Basic Printf Example](images/Running%20the%20ADC%20basic%20Data%20Visualizer-Low.png)
 
 
-Two vertical cursors are added to verify the timer frequency. See the configuration instructions below.
- 
-![DataVisualizer config Timer Toggle LED](images/DataVisualizerConfigTimerToggle_LED_15cm.png)
-
-A logic analyzer can be used instead of Debug GPIO on the MPLAB Data Visualizer.
 
 ## Summary
 For more example components, open the stand-alone Content Manager ![CM_icon](images/CM_icon.png) in MCC. 
