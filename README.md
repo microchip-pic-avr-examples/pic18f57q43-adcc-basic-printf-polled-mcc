@@ -58,9 +58,9 @@ Once the program is loaded in MPLAB X IDE, find more information from Tooltips a
 The image below shows the [ADCC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.ADCC.PRINTF&version=latest&redirect=true
 ) running, using the MPLAB Data Visualizer. 
 
-1) Click the ![Data Visualizer icon](images/Icon-MPLAB-DataVisualizer_1cm.png) to open the MPLAB Data Visualizer.
+1) Click the ![Data Visualizer icon](images/Icon-MPLAB-DataVisualizer_1cm.png) icon to open the MPLAB Data Visualizer.
 2) Under Debug GPIO, click the ![Add to time plot icon](images/Icon-DataVisualizer_TimePlot.png "Display as raw data on time plot.") icon, to add to the time plot.
-3) Under the COMx port, associated with your board, click the ![Settings Gear](images/Icon-DataVisualizer-SettingsGear.png "sourse options") to set the Baud Rate to 115200. 
+3) Under the COMx port, associated with your board, click the ![Settings Gear](images/Icon-DataVisualizer-SettingsGear.png "sourse options") icon to set the Baud Rate to 115200. 
 4) Then click the ![Display as text in the terminal icon](images/Icon-DataVisualizer_TimePlot.png "Display as raw data on time plot.") icon to display text from the COMx port on the terminal.
 
 **Note:** If your board is not recognised by the MPLAB Data Visualizer, go to the Device Manager (Windows) to determine the COMx number.  
