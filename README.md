@@ -9,7 +9,14 @@
 # MCC Melody ADC Basic Printf Example - Polled Implementation (PIC18F57Q43)
 
 The [ADC Basic Printf example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.ADCC.PRINTF&version=latest&redirect=true
-"Analog-to-Digital Conversion (ADC) Basic Printf example, of the MPLAB® Code Configurator (MCC) ADC Converter with Computation (ADCC) Example"), of the MCC Melody ADCC Example Component, is used in the Polled implementation.  Analog-to-Digital (A/D) conversions are taken every 500 ms. The LED is toggled and the result is sent to the PC terminal.  
+"Analog-to-Digital Conversion (ADC) Basic Printf example,"), of the MCC Melody ADCC Example Component, is used in the Polled implementation.  Analog-to-Digital (A/D) conversions are taken every 500 ms. The LED is toggled and the result is sent to the PC terminal.  
+
+## Video Building This Example 
+
+[![Video Building this Example](images/3_ADCBasicPrintf-Polled-VideoImage.png "Creating the ADC Basic Printf Example from scratch, using the Polled implementation.")](https://youtu.be/sxciN3EZez4?list=PLtQdQmNK_0DTA08RmyuJH4dyNrYGDGi0l)
+
+**Video:** [Introducing MCC Melody Example Components](https://youtu.be/zK5jLiIIYvE?list=PLtQdQmNK_0DTA08RmyuJH4dyNrYGDGi0l)
+(while building the Polled version of the Timer Toggle LED example).  
 
 ## MCC Melody Example Components
 Example Components are a tight integration of learning material directly into MCC. This allows users to conveniently place configuration instructions side-by-side to the components they are configuring. For more information, refer to the [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
@@ -30,8 +37,8 @@ Example Components are related to [MCC Melody Design Patterns for Control Flow](
 - MPLAB® X IDE 6.20.0 or newer [(MPLAB® X IDE 6.20)](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-x-ide)
 - MPLAB® XC8 2.46.0 or newer [(MPLAB® XC8 2.46)](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8)
 
-- MCC Plugin Version 5.5.1 or newer (*Tools>Plugins>Installed*, search: "MCC")
-- ADCC Example Component 1.0.0 or newer
+- MPLAB® Code Configurator (MCC) Plugin Version 5.5.1 or newer (*Tools>Plugins>Installed*, search: "MCC")
+- ADC Converter with Computation (ADCC) Example Component 1.0.0 or newer
 - MCC Core 5.7.1 or newer 
 - MCC Melody Core 2.7.1 or newer (Communicates with the MCC core, providing views and other functionality for MCC Melody)
 
