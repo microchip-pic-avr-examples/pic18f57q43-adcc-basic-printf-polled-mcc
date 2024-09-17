@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f57q43-adcc-basic-printf-polled-mcc",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "pic18f57q43-adcc-basic-printf-polled-mcc",
         "projectName": "pic18f57q43-adcc-basic-printf-polled-mcc",
         "shortDescription": "The ADCC Basic Printf Example, of the MCC Melody ADCC Example Component, used in the Polled implementation. ADC Conversions are taken every 500 ms. The LED is toggled and the result is sent to the PC terminal.",
